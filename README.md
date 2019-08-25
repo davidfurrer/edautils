@@ -1,6 +1,9 @@
 # eda-utils
 helper functions for exploratory data analysis (EDA)
 
+----
+docs can be found at:
+https://davidfurrer.github.io/edautils/
 
 -----
 
