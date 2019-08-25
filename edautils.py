@@ -3,8 +3,21 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import math
 
+class ExampleClass:
+    """An example docstring for a class definition."""
+
+    def __init__(self, name):
+        """
+        Blah blah blah.
+        Parameters
+        ---------
+        name
+            A string to assign to the `name` instance attribute.
+        """
+        self.name = name
+
 def plot_categorical(df, size_inches=(5, 7)):
-    """Creates a recurrent attention based model
+    """Plot counts of categorical features
     Args:
         df (dataframe): dataframe containing data to be ploted
         size_inches (tuple): plot size in inches
@@ -22,7 +35,7 @@ def plot_categorical(df, size_inches=(5, 7)):
     
 
 def plot_numerical(df, size_inches=(15, 20), num_cols = 5):
-    """Creates a recurrent attention based model
+    """Plot histograms of categorical features
     Args:
         df (dataframe): dataframe containing data to be ploted
         size_inches (tuple): plot size in inches
