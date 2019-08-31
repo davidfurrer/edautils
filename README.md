@@ -12,8 +12,15 @@ https://davidfurrer.github.io/edautils/
 ```python
 import edautils
 
-edautils.plot_numerical(df)
+edautils.plot_numerical(df, num_cols = 5, target_col = 'diagnosis')
 ```
 
-![Numerical Features](png/numerical_example1.png)
+![Numerical Features](png/numerical_example2.png)
 
+
+```python
+edautils.plot_numerical(df, num_cols = 5, target_col = 'diagnosis')
+```
+
+
+![Numerical Features](png/numerical_example1.png)

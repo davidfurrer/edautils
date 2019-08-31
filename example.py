@@ -25,12 +25,6 @@ plt.close(fig)
 
 #mpg example
 #%%
-fig, ax = edautils.plot_numerical(df2, num_cols = 5)
-fig.savefig("png/numerical_example1.2.png", dpi=150)
-plt.close(fig) 
-
-
-#%%
 fig, ax = edautils.plot_categorical(df2, num_cols = 3, size_inches=(30, 10))
 fig.savefig("png/categorical_example1.2.png", dpi=150)
 plt.close(fig) 
