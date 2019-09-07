@@ -19,7 +19,7 @@ edautils.plot_numerical(df, num_cols = 5, target_col = 'diagnosis')
 
 
 ```python
-edautils.plot_numerical(df, num_cols = 5, target_col = 'diagnosis')
+edautils.plot_numerical(df, num_cols = 5)
 ```
 
 
