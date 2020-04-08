@@ -1,0 +1,7 @@
+README.md
+setup.py
+edautils.egg-info/PKG-INFO
+edautils.egg-info/SOURCES.txt
+edautils.egg-info/dependency_links.txt
+edautils.egg-info/requires.txt
+edautils.egg-info/top_level.txt

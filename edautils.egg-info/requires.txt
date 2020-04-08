@@ -1,0 +1,6 @@
+pandas
+numpy
+
+[tests]
+pytest>=4.0.0
+pytest-pep8
