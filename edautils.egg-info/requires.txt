@@ -1,5 +1,6 @@
 pandas
 numpy
+matplotlib
 
 [tests]
 pytest>=4.0.0

@@ -1,7 +1,7 @@
 from setuptools import setup
 from setuptools import find_packages
 
-required = ['pandas', 'numpy']
+required = ['pandas', 'numpy', 'matplotlib']
 
 extras_required = dict()
 extras_required['tests'] = ['pytest>=4.0.0', 'pytest-pep8']
