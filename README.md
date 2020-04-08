@@ -3,6 +3,14 @@ helper functions for exploratory data analysis (EDA)
 
 ## Installation
 
+### Using pip
+
+```
+pip install edautils
+```
+
+### Local
+
 ```
 git clone git@github.com:davidfurrer/edautils.git
 pip install -e edautils
