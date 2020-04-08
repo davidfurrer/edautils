@@ -1,11 +1,13 @@
-# eda-utils
+# edautils
 helper functions for exploratory data analysis (EDA)
 
-----
-docs can be found at:
-https://davidfurrer.github.io/edautils/
+## Installation
 
------
+```
+git clone git@github.com:davidfurrer/edautils.git
+pip install -e edautils
+```
+
 
 ## Example usage
 
