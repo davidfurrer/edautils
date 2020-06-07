@@ -10,9 +10,7 @@ edautils is well suited for many different kinds of applications:
 
 required = ['pandas>=0.25.2', 'numpy>=1.17.0', 'matplotlib>=3.0.0']
 
-extras_required = dict()
-extras_required['tests'] = ['pytest>=4.0.0', 'pytest-pep8']
-
+extras_required = {'tests': ['pytest>=4.0.0', 'pytest-pep8']}
 setup(name='edautils',
       version='0.1.4',
       description='Exploratory data analysis (EDA) helper functions',

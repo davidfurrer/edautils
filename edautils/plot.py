@@ -40,7 +40,7 @@ def plot_numerical(df, size_inches=(15, 20), num_cols=None, target_col=None):
 
     for i, column in enumerate(df.select_dtypes(include=['float64'])):
         plt.subplot(num_rows, num_cols, i + 1)
-        if target_col == None:
+        if target_col is None:
             plt.hist(df[column], alpha=0.5)
         else:
             target_cats = df[target_col].unique()
